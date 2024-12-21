@@ -1,11 +1,165 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Page Title</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Design</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f9;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .cv-container {
+      width: 800px;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .header {
+      background: #4a90e2;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    .header p {
+      font-size: 1.2em;
+    }
+
+    .main-content {
+      display: flex;
+    }
+
+    .left-column {
+      background: #f0f4ff;
+      padding: 20px;
+      width: 30%;
+    }
+
+    .left-column img {
+      width: 100%;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    .left-column .contact,
+    .left-column .skills {
+      margin-bottom: 20px;
+    }
+
+    .left-column h3 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .left-column ul {
+      list-style: none;
+    }
+
+    .left-column ul li {
+      margin-bottom: 10px;
+      font-size: 0.9em;
+    }
+
+    .right-column {
+      padding: 20px;
+      width: 70%;
+    }
+
+    .right-column .section {
+      margin-bottom: 20px;
+    }
+
+    .right-column h3 {
+      margin-bottom: 10px;
+      color: #4a90e2;
+      font-size: 1.2em;
+    }
+
+    .right-column p {
+      font-size: 0.95em;
+      line-height: 1.5;
+      margin-bottom: 10px;
+    }
+
+    .right-column .section ul {
+      list-style: none;
+    }
+
+    .right-column .section ul li {
+      margin-bottom: 10px;
+    }
+
+    .right-column .section ul li span {
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-
+  <div class="cv-container">
+    <div class="header">
+      <h1>John Doe</h1>
+      <p>Frontend Developer</p>
+    </div>
+    <div class="main-content">
+      <div class="left-column">
+        <img src="https://via.placeholder.com/150" alt="Profile Picture">
+        <div class="contact">
+          <h3>Contact</h3>
+          <ul>
+            <li>Email: john.doe@example.com</li>
+            <li>Phone: +123 456 7890</li>
+            <li>Location: New York, USA</li>
+          </ul>
+        </div>
+        <div class="skills">
+          <h3>Skills</h3>
+          <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>Node.js</li>
+          </ul>
+        </div>
+      </div>
+      <div class="right-column">
+        <div class="section">
+          <h3>About Me</h3>
+          <p>A passionate frontend developer with experience in creating responsive and user-friendly websites.</p>
+        </div>
+        <div class="section">
+          <h3>Experience</h3>
+          <ul>
+            <li><span>Frontend Developer</span> - ABC Corp (2020-2023)</li>
+            <li><span>Web Developer</span> - XYZ Inc (2017-2020)</li>
+          </ul>
+        </div>
+        <div class="section">
+          <h3>Education</h3>
+          <ul>
+            <li><span>Bachelor of Computer Science</span> - University of New York (2013-2017)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+</html>
