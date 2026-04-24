@@ -12,7 +12,7 @@
       <div class="right">
         <span class="badge">About me</span>
 
-        <h1>Curious about me? Here you have it:</h1>
+        <h1>Curious about me? Here you have it :</h1>
 
         <p>
           "I am a 4th-year Software Engineering student at the University of Phayao with a strong
